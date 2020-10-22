@@ -1,13 +1,138 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.container {
+  width: 100%;
+  height: 720px;
+  text-align: center;
+  background-color: black;
+  color: blanchedalmond;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navGauche {
+  width: 10%;
+  height: 650px;
+  float: left;
+
 }
+
+.navGaucheH {
+  width: 90%;
+  height: 60px;
+  background-color: rgba(209, 204, 209, 0.747);
+  margin: 6px;
+}
+
+.navGaucheB {
+  width: 90%;
+  height: 530px;
+  background-color: rgba(209, 204, 209, 0.747);
+  margin: 6px;
+}
+
+.blocDroit {
+  width: 90%;
+  height: 650px;
+
+  float: right;
+}
+
+.blocDroitLeft {
+  float: left;
+  width: 85%;
+  height: 650px;
+
+
+
+}
+
+.blocSearch {
+  width: 95%;
+  background-color: rgba(209, 204, 209, 0.747);
+  height: 30px;
+  margin: 10px 30px;
+
+}
+input {
+  border-radius: 5px;
+  height: 20px;
+  float: left;
+  margin-top: 2px;
+  margin-left: 30px;
+
+}
+.menu {
+  width: 95%;
+  background-color: rgba(140, 210, 243, 0.747);
+  height: 25px;
+  margin: 5px 30px;
+}
+ul {
+  padding-top: 5px;
+}
+li {
+  display: inline;  
+
+
+}
+a {
+  color: black;
+  margin-right: 20px;
+  text-decoration: none;
+
+}
+.browser {
+  width: 95%;
+  background-color: rgba(67, 245, 156, 0.747);
+  height: 20px;
+  margin: 0px 30px;
+}
+
+h3 {
+  float: left;
+  margin-top: -3px;
+  margin-left: 30px;
+}
+.blocArticle {
+  display: flex;
+  width: 100%;
+  margin: 0px 15px;
+}
+article {
+  width: 23%;
+  padding-right: 10px;
+}
+.imgL {
+  width: 220px;
+  height: 220px;
+  margin-right: 5px;
+}
+
+.imgS {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+}
+.blocDroitRight {
+  float: right;
+  width: 15%;
+  height: 650px;
+  background-color: black;
+}
+.navDroitB {
+  width: 90%;
+  height: 600px;
+  background-color: rgba(209, 204, 209, 0.747);
+  margin: 6px;
+}
+
+.blocB {
+  clear: both;
+  width: 100%;
+  height: 70px;
+  background-color: purple;
+
+}
+.blocB p {
+  padding-top: 10px;
+  font-weight: bolder;
+
+}
+
